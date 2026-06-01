@@ -1,0 +1,26 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "strict": false, //严格模式
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false, //隐式this
+    "strictNullChecks": false, //严格null检查
+    "strictFunctionTypes": false, //严格函数类型
+    "strictBindCallApply": false, //严格bind、call、apply
+    "strictPropertyInitialization": false, //严格属性初始化
+    "useUnknownInCatchVariables": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
