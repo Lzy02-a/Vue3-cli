@@ -1,5 +1,5 @@
 import axios from 'axios'
-const LOCAL_INSTANCE = axios.create({
+export const LOCAL_INSTANCE = axios.create({
   // 本地
   baseURL: import.meta.env.VITE_LOCAL_INSTANCE,
   timeout: 10000,
