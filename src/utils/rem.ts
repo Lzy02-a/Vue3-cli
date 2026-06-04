@@ -1,11 +1,7 @@
+const ROOT_FONT_SIZE = 16
+
 function setRem() {
-    const html = document.documentElement
-  
-    const width = html.clientWidth
-  
-    html.style.fontSize = `${width / 10}px`
-  }
-  
-  setRem()
-  
-  window.addEventListener('resize', setRem)
+  document.documentElement.style.fontSize = `${ROOT_FONT_SIZE}px`
+}
+
+setRem()
